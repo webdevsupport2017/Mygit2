@@ -1,0 +1,26 @@
+package com.company;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+/**
+ * Created by JPMC-B2-PC16 on 16/03/2017.
+ */
+public class AbcRandomly {
+
+    public static String getgfbfGf()
+    {
+
+    List<String> gfBf= new ArrayList();
+
+    gfBf.add(ListgirlFriends.getgirlFriends()+ " " + ListFeelings.getfeelingsRandomly()+ " " + ListboyFriends.getboyFriends());
+    gfBf.add(ListboyFriends.getboyFriends()+ " " + ListFeelings.getfeelingsRandomly()+ " " + ListgirlFriends.getgirlFriends());
+
+    Random gfBfgf = new Random();
+
+        return gfBf.get(gfBfgf.nextInt(gfBf.size()));
+
+
+    }
+}

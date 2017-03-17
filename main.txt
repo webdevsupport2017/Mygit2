@@ -1,0 +1,94 @@
+package com.company;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+       // int[] x;
+
+       /* String[] aRRay = {"Lord","Jesus","God"};
+       // aRRay [0] = "Lord";
+        //aRRay [1] = "God";
+        //aRRay [2] = "Jesus";
+
+
+       // Scanner in = new Scanner(System.in);
+        System.out.print("You Enter number : 11 \n ");
+        int monthNumber = 11;
+      //  monthNumber = in.nextInt();
+        switch (monthNumber) {
+            case 1:
+                System.out.println("January");
+                break;
+            case 2 :
+                System.out.println("February");
+                break;
+            case 3:
+                System.out.println("March");
+                break;
+            case 4:
+                System.out.println("April");
+                break;
+            case 5:
+                System.out.println("May");
+                break;
+            case 6:
+                System.out.println("June");
+                break;
+            case 7:
+                System.out.println("July");
+                break;
+            case 8:
+                System.out.println("August");
+                break;
+            case 9:
+                System.out.println("September");
+                break;
+            case 10:
+                System.out.println("October");
+                break;
+            case 11:
+                System.out.println("November");
+                break;
+            case 12:
+                System.out.println("December");
+                break;
+            default:
+                System.out.println("Invalid month.");
+                break;
+        }
+        System.out.println("With 3 Given Elements : ");
+        System.out.println("Index #0 : " + aRRay[0]);
+        System.out.println("Index #1 : " + aRRay[1]);
+        System.out.println("Index #2 : " + aRRay[2]);
+
+      //  System.out.print("Factorial # of 7 : ");
+        //System.out.print( MyStaticMethods.generateIntergers(7));
+        MyStaticMethods.generateIntergers(5);*/
+        System.out.print(" ");
+
+/*
+
+        System.out.print(ListboyFriends.getboyFriends()+" " + ListFeelings.getfeelingsRandomly() + " ");
+
+        System.out.print(ListgirlFriends.getgirlFriends());
+
+        System.out.print("------------------------------------------------------------");
+*/
+
+
+        System.out.print(" "+ AbcRandomly.getgfbfGf()+" ");
+
+
+
+
+    }
+
+
+
+}

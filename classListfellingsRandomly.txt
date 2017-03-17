@@ -1,0 +1,29 @@
+package com.company;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+/**
+ * Created by JPMC-B2-PC16 on 16/03/2017.
+ */
+public class ListFeelings {
+
+    public static String getfeelingsRandomly()
+    {
+
+
+        List<String> feelingsRandomly= new ArrayList<String>();
+
+
+        feelingsRandomly.add("LOVE");
+        feelingsRandomly.add("HATE");
+        feelingsRandomly.add("SECRETLY INLOVE WITH");
+        feelingsRandomly.add("PUNCH");
+        feelingsRandomly.add("NAPAPA-WOW kai");
+
+	  /* Displaying array list elements */
+        Random feelings = new Random();
+        return feelingsRandomly.get(feelings.nextInt(feelingsRandomly.size()));
+    }
+}
